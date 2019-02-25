@@ -23,3 +23,13 @@ Then /I should see all the movies/ do
     step %{I should see "#{movie.title}"}
   end
 end
+
+Then /^the director of "([^"]*)" should be "([^"]*)"$/ do |arg1, arg2|
+    if !body.include? arg1
+        flunk("Page missing the movie!")
+    end
+    
+    if !body.include? arg2
+        flunk("Page missing the Director!")
+    end
+end
