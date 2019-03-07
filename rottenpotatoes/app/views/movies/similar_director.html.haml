@@ -5,6 +5,7 @@
       %th Movie Title
       %th Rating
       %th Release Date
+      %th Director
       %th More Info
           
   %tbody
@@ -13,4 +14,5 @@
         %td= movie.title
         %td= movie.rating
         %td= movie.release_date
+        %th= movie.director
         %td= link_to "More info about #{movie.title}", movie_path(movie)
