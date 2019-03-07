@@ -1,3 +1,25 @@
+.............
+Name: XingyiCai
+NetID: 727006580
+
+-Git-
+https://github.com/EchoChua/hw-acceptance-unit-test-cycle/tree/master/rottenpotatoes
+
+-Heroku-
+
+.............
+--Rspec--
+
+2 deprecation warnings total
+
+Finished in 0.2025 seconds (files took 3.18 seconds to load)
+13 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ubuntu/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 55 / 55 LOC (100.0%) covered.
+
+...............
+--Cucumber--
+
 Using the default profile...
 Feature: search for movies by director
   As a movie buff
@@ -101,5 +123,5 @@ Feature: display list of movies sorted by different criteria
 
 7 scenarios (7 passed)
 39 steps (39 passed)
-0m1.033s
-Coverage report generated for Cucumber Features to /home/ubuntu/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 46 / 53 LOC (86.79%) covered.
+0m1.027s
+Coverage report generated for Cucumber Features to /home/ubuntu/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 47 / 55 LOC (85.45%) covered.
